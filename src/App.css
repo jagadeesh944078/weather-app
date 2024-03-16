@@ -1,0 +1,70 @@
+.dashboard-container {
+  background-image: url("https://t3.ftcdn.net/jpg/05/51/95/26/360_F_551952602_vp8d4v2nDYo8UExEpxFOtMMv8uOzPaq9.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Adjust the height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dashboard-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.search-bar-container > * {
+  margin-bottom: 10px;
+}
+
+.weather-details {
+  display: flex;
+}
+
+.weather-details-container {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.city-name {
+  margin-bottom: 20px;
+}
+
+.today {
+  background-color: #fff;
+  border: 2px solid #007bff;
+  padding: 20px;
+}
+
+.weather-day {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.day-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.temperature,
+.clouds {
+  margin-bottom: 5px;
+}
+
+.cloud-image {
+  width: 100px;
+  height: 60px;
+  background-size: cover;
+  margin-top: 5px;
+}
