@@ -30,9 +30,10 @@
 }
 
 .weather-details-container {
-  padding: 20px;
   background-color: #f0f0f0;
   border-radius: 8px;
+  display: grid;
+  grid-template-rows: 3fr 1fr;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -67,4 +68,17 @@
   height: 60px;
   background-size: cover;
   margin-top: 5px;
+}
+
+.background-image {
+  background-image: url("https://t3.ftcdn.net/jpg/05/51/95/26/360_F_551952602_vp8d4v2nDYo8UExEpxFOtMMv8uOzPaq9.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+.content-container {
+  display: flex;
+  gap: 15px;
 }

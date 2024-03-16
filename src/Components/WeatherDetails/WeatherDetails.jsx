@@ -23,11 +23,12 @@ const WeatherDetails = ({ weatherData }) => {
 
   return (
     <div className="weather-details-container">
-      <div className="background-image"></div>
-      <div className="content-container">
+      <div className="background-image">
         <Typography variant="h4" className="city-name">
           {weatherData.city_name}
         </Typography>
+      </div>
+      <div className="content-container">
         {weatherData.data.map((dayData, index) => (
           <div key={index} className="weather-day">
             <Typography variant="body1" className="day-name">
